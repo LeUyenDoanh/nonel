@@ -1,0 +1,153 @@
+*{margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    padding: 20px;
+}
+.menu ul li:hover{
+background-color: aqua;
+cursor: pointer;
+}
+.img-slider{
+    margin-top: 60px;
+
+}
+.img-slider img{
+    width: 100%;
+    height: 500px;
+}
+.content{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+}
+.bp{
+padding: 20px;
+text-align: center;
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+.img-sliders{
+    width: 50%;
+}
+.img-sliders img{
+    width: 100%;
+    height: 400px;
+}
+.bp h2{
+    margin-bottom: 35px;
+}
+.members{
+text-align: center;
+}
+.bp-img{
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.bp-img img{
+    width: 300px;
+}
+.c{
+text-align: center;
+}
+.h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.form-input form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.form-input{
+    display: flex;
+    justify-content: center;
+}
+.form-input form input{
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid hotpink;
+}
+.form-input form button{
+     background-color: black;
+    color: hotpink;
+    height: 30px;
+}
+.form-input form button:hover{
+     background-color: purple;
+    color: yellow;
+}
+.gift-container{
+    display: flex;
+   justify-content: space-around;
+    flex-wrap: wrap;
+}
+.gift h2{
+    text-align: center;
+    color: red;
+    padding: 30px;
+}
+.item{
+    background-color: navajowhite;
+    border: 2px solid pink;
+    padding: 10px;
+    border-radius: 10px 20px;
+}
+.item p{
+    padding: 10px;
+}
+.bp-img{
+    width: 300px;
+    margin: 20px;
+}
+.bp-img .item{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.bp-img img{
+    height: 300px;
+}.bp-img span{
+    padding: 20px;
+    color: red;
+}
+.footer{
+    height: 50px;
+    background-color: rgb(41, 41, 41);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+.right i{
+    font-size: 30px;
+    color: white;
+}
+.footer span{
+    color: antiquewhite;
+    font-size: 30px;
+}
+.left p{
+    color: aliceblue;
+    font-size: 20px;
+}
